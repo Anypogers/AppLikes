@@ -1,22 +1,26 @@
 
-> CMD
+# COMANDOS CMD
 
+```
+--- Criar ---
 npm create vite@latest
 : "Nome"
-: "React" (cetinha para baixo)
+: "React"
 : "JavaScript"
-
+--- Instalar modulos ---
 npm install || npm i
-- instala Node Modules
 
+--- Rodar ---
 npm run dev
 - abrir o site
-
+--- Ajuda ---
 h + [ENTER] = ajuda
-
-EXTENCAO: CSS MODULES
+```
+___
+# EXTENCAO: CSS MODULES
 
 VS Code --- File Structure
+```
 ._(src)
 |\(assets)
 |\(components)
@@ -29,8 +33,10 @@ VS Code --- File Structure
 |>App.module.css
 ||
 ||^css code^
-
-jsx:
+```
+___
+# jsx:
+```
 import {Header} from "./components/Header" 
 
 import styles from './App.module.css'
@@ -44,13 +50,15 @@ export function App() {
 	</>
   );
 }
-
-
-css:
+```
+___
+# css:
+```
 :root{
 	--NOME_VARIAVEL: #codigo_hex;
 	--NOME_VARIAVEL: #codigo_hex;
 	--NOME_VARIAVEL: #codigo_hex;
 }
 
-^Estilos CSS^
+^STYLES^
+```
