@@ -1,30 +1,34 @@
-import { Comment } from "./comment";
+import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
-export function Post() {
+// author: {avatarUrl: "", nome: "", cargo: ""}
+// dataPulicacao: Date
+// Content: string
+
+export function Post({author, content, dataPublicacao}) {
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
           <img
             className={styles.avatar}
-            src="https://github.com/Anypogers.png"
+            src={author.avatarUrl}
           />
           <div className={styles.authorInfo}>
-            <strong>Anypogers</strong>
-            <span>Web Developer</span>
+            <strong>{author.nome}</strong>
+            <span>{author.cargo}</span>
           </div>
         </div>
-        <time title="10 de Setembro às 09:44h" dateTime="2024/09/10 09:44:00">
+        <time title="10 de Setembro às 09:44h" dateTime={dataPublicacao}>
           Publicado há 1h
         </time>
       </header>
       <div className={styles.content}>
-        <p>Fala Galera !!!</p>
-        <p>Amanhã teremos viagem a Bienal !!!</p>
+        <p>Yoooo guys!!!</p>
+        <p>Murder Drones Episode 8 is a banger!</p>
         <p>
-          <a href="#">#bienaldolivrosp</a> <a href="#">#eteccidadedolivro</a>{" "}
-          <a href="#">#vempraetec</a>
+          <a href="#">#murderdrones</a> <a href="#">#indieanimations</a>{" "}
+          <a href="#">#glitchproductions</a>
         </p>
       </div>
 
