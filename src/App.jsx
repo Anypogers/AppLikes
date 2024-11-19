@@ -37,7 +37,7 @@ const posts = [
       {type: 'paragraph', content: "Eu não vou a viagem na Bienal"},
       {type: 'link', content: 'youtu.be'}
     ],
-    dataPublicacao: new Date('2024/09/10 09:44:00')
+    dataPublicacao: new Date('2024/09/10 09:45:00')
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const posts = [
       {type: 'paragraph', content: "Eu vou a viagem na Bienal"},
       {type: 'link', content: 'youtu.be'}
     ],
-    dataPublicacao: new Date('2024/09/10 09:44:00')
+    dataPublicacao: new Date('2024/09/10 09:55:00')
   }
 ];
 
