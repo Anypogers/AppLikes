@@ -12,7 +12,6 @@ export function Post({author, dataPublicacao, content}) {
   const dataRelativaAoPost = formatDistanceToNow(dataPublicacao, {
     locale: ptBR,
     addSuffix: true
-
   });
   return (
     <article className={styles.post}>
@@ -36,7 +35,7 @@ export function Post({author, dataPublicacao, content}) {
           if (line.type === 'paragraph') {
             return <p>{line.content}</p>
           } else if (line.type === 'link'){
-            return <a href="#">{line.content}</a>
+            return <a target="_blank" href={line.content}>{line.content}</a>
           }
         })}
       </div>

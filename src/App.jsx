@@ -21,7 +21,7 @@ const posts = [
     content: [
       {type: 'paragraph', content: "Fala Galera !!!"},
       {type: 'paragraph', content: "Amanhã teremos viagem a Bienal !!!"},
-      {type: 'link', content: 'youtu.be'}
+      {type: 'link', content: 'https://youtu.be'}
     ],
     dataPublicacao: new Date('2024/09/10 09:44:00')
   },
@@ -35,7 +35,7 @@ const posts = [
     content: [
       {type: 'paragraph', content: "Fala Galera !!!"},
       {type: 'paragraph', content: "Eu não vou a viagem na Bienal"},
-      {type: 'link', content: 'youtu.be'}
+      {type: 'link', content: 'https://youtu.be'}
     ],
     dataPublicacao: new Date('2024/09/10 09:45:00')
   },
@@ -49,7 +49,7 @@ const posts = [
     content: [
       {type: 'paragraph', content: "Fala Galera !!!"},
       {type: 'paragraph', content: "Eu vou a viagem na Bienal"},
-      {type: 'link', content: 'youtu.be'}
+      {type: 'link', content: 'https://youtu.be'}
     ],
     dataPublicacao: new Date('2024/09/10 09:55:00')
   }
